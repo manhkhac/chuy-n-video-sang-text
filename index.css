@@ -1,0 +1,63 @@
+html,body,.ctrl{  margin: 0; padding: 0; }
+
+html, body{height: 100%;}
+        
+
+#textCanvas{ font-family: 'segoe ui light';}
+        
+        #videoScreen{ 
+             height: 100vh;
+             width: 100vw;
+        }
+
+		.ctrl{ 
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            left: 0;
+            z-index: 3;  
+            padding: 10px; 
+            border-radius:4px;
+            background-color: #fff;
+        }
+
+		input[type=button]{
+            background-color: #b0f5c5;
+            color: #fff;
+            border-width: 0;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+		select{
+            padding : 4px 8px;
+            border-radius: 4px;
+        }
+
+		#file{
+            position : absolute;
+            left:-99999px;
+        }
+
+		.file{
+            background-color: #3bfc2e;
+            color: #272724e6;
+            border-width: 0;
+            padding: 12px 8px;
+            border-radius: 96px;
+            cursor: pointer;
+            display: block;
+            text-align: center;
+            font-size: 24px;
+        }
+
+		#info{
+            position: absolute;
+            text-align: center;
+            padding: 20px;
+            left: 0;right: 0;
+            top: 20%;
+            color: #999;
+            line-height: 2;
+        }
